@@ -25,7 +25,17 @@
 
 \section*{Business logic}
 
-<business stuff>
+\begin{itemize}
+    \item \emph{Bibliography.Volume} is either the volume number if \emph{Bibliography.Periodical} is a journal, and otherwise an abbreviation of the publication type.
+    
+    \item \emph{Bibcode}s reference existing bibliography items.
+    
+    \item \emph{Object\_type}s must belong to the set of predefined types. \emph{Object\_type}s discriminate between \emph{Star} and \emph{Galaxy} entities.
+    
+    \item The \emph{Cross\_reference} should be a strict partial order.
+    
+    \item All data should follow the specification of SIMBAD.
+\end{itemize}
 
 \includegraphics[width=\textwidth]{diagram.png}
 
